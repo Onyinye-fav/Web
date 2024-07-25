@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Six Paged Website</title>
+    <link rel="stylesheet" href="web project1.css">
+    <link rel="icon" type="image" href="pexels-magda-ehlers-pexels-1337380.jpg">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  </head>
+<body>
+    <!--Nav Bar--> 
+     <nav>
+        <img src="pexels-magda-ehlers-pexels-1337380.jpg" alt="">
+        <div class="navigation">
+            <ul>
+              <img id="menu-close" src="close.png" alt="">
+                <li><a href="Index.html">Home</a></li>
+                <li><a class="active" href="About.html">About</a></li>
+                <li><a href="Courses.html">Courses</a></li>
+                <li><a href="Registration.html">Registration</a></li>
+                <li><a href="Experts.html">Experts</a></li>
+            </ul>
+            <img id="menu-btn" src="Menu Icon.png" alt="">
+        </div>
+     </nav>
+
+  <!--Home-->
+  <section id="home">
+    <h2>Enhance your finances with P2P</h2>
+    
+  </section> 
+   
+  <!--About-->   
+  <section id="about">
+    <h1>Awesome Features</h1>
+    <p>If you are born poor its is not your fault. If you die poor, It is your fault.</p>
+<div class="about-base">
+    <div class="about-box">
+      <h3>Scholarship Facility</h3>
+      <p>Financial success maketh one great. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto perspiciatis eveniet, est perferendis in eum. Delectus distinctio, unde iure ea, consequatur omnis incidunt est praesentium, possimus laborum eligendi necessitatibus itaque!</p>
+    </div>
+    <div class="about-box">
+        <h3>Financial Knowledge</h3>
+        <p>Financial success maketh one great. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim inventore ullam eaque iusto voluptatibus id numquam distinctio nulla doloremque ratione. Voluptates molestias ullam odio. Eum quisquam velit quidem qui vel?</p>
+      </div>
+      <div class="about-box">
+        <h3>Increasing Capacity</h3>
+        <p>Financial success maketh one great. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut vitae excepturi nostrum numquam, reiciendis quibusdam accusamus incidunt obcaecati officia laudantium, nemo recusandae, magni facere corrupti maxime dolore hic? Temporibus, ex?</p>
+      </div>
+</div> 
+  </section>
+
+
+<!--Footer-->
+<footer>
+  <div class="footer-col">
+    <h3>Top Products</h3>
+    <li>Manage Reputation</li>
+    <li>Power Tools</li>
+    <li>Manage Website</li>
+    <li>Marketing Services</li>
+  </div>
+
+  <div class="footer-col">
+    <h3>Top Products</h3>
+    <li>Manage Reputation</li>
+    <li>Power Tools</li>
+    <li>Manage Website</li>
+    <li>Marketing Services</li>
+  </div>
+
+  <div class="footer-col">
+    <h3>Top Products</h3>
+    <li>Manage Reputation</li>
+    <li>Marketing Services</li>
+  </div>
+
+  <div class="footer-col">
+    <h3>Top Products</h3>
+    <li>Manage Reputation</li>
+    <li>Power Tools</li>
+    <li>Manage Website</li>
+    <li>Marketing Services</li>
+  </div>
+
+  <div class="footer-col"> 
+    <h3>Newsletter</h3>
+    <p>Trust us. We won't spam your mail.</p>
+    <div class="subscribe">
+      <input type="text" placeholder="Your Email Address">
+      <a href="#" class="yellow">SUBSCRIBE</a>
+    </div>
+  </div>
+
+  <div class="copyright">
+  <p>Copyright@2024 All Rights Reserved</p>
+  </div>
+</footer>
+
+ <script>
+    $('#menu-btn').click(function() {
+      $('nav .navigation ul').addClass('active')
+    })
+    $('#menu-close').click(function() {
+      $('nav .navigation ul').removeClass('active')
+    })
+ </script>
+</body>
+</html>

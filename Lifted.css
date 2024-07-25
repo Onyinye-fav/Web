@@ -1,0 +1,377 @@
+*{
+ margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+font-family: sans-serif;
+}
+h1{
+font-size: 2.5rem;
+font-weight: 700;
+color: rgb(35, 35%, 85%);
+}
+
+span{
+font-size: .9rem;
+color: rgb(104, 115, 125);
+}
+nav{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 1vw 8vw;
+z-index: 999;
+
+}
+
+/*navigation*/
+nav img{
+width: 150px;
+cursor: pointer;
+}
+
+nav .navigation ul{
+display: flex;
+justify-content: flex-end;
+align-items: center;
+
+}
+nav .navigation ul li{
+list-style: none;
+margin: 30px;
+}
+
+nav .navigation ul li a {
+text-decoration: none;
+color: rgb(21, 21, 100);
+font-size: 16px;
+font-weight: 500;
+transition: 0.3s ease;
+    }
+
+nav .navigation ul li a:hover {
+color: rgb(171, 171, 4);
+}
+
+/*home*/
+#home {
+background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url("Big Vacation houses.jpg");
+width: 100%;
+height: 100vh;
+background-size: cover;
+background-position: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 8vw 8vw 8vw 8vw;
+}
+
+#home house{
+width: 700px;
+height: 100%;
+position: cover;
+}
+
+
+#home h2{
+color: white;
+font-size: 2.2rem;
+letter-spacing: 1px;
+ }
+
+#home p{
+width: 50%;
+color: white;
+font-size: 0.9 rem ;
+line-height: 25px;
+}
+ #home a{
+text-decoration: none;
+font-size: 0.9rem;
+padding: 13px 35px;
+background-color: white;
+font-weight: 600;
+box-sizing: 5px;
+ }
+
+ #home .btn{
+ margin-top: 30px ;
+ }
+
+ #home a.blue{
+color: white;
+background: rgb(21, 21, 100);
+transition: 0.3s ease;
+ }
+
+ #home a.blue:hover{
+color: rgb(21, 21, 100);
+background: white;
+ }
+
+ #home a.yellow{
+color: white;
+ background: #967310;
+transition: 0.3s ease;
+     }
+    
+ #home a.yellow:hover{
+ color: #967310;
+background: white;
+     }
+ 
+     /*features*/
+     #features{
+padding: 8vw, 8vw, 8vw, 8vw;
+text-align: center;
+     }
+     
+     #features .fea-box{
+background: #71c0a8;
+text-align: start ;
+     }
+
+     #features .fea-box h3{
+font-size: 1.2rem;
+font-weight: 600;
+color: rgb(46, 46, 146);
+padding: 13px 0 7px 0;
+text-align: center;
+     }
+
+     #features .fea-box p{
+font-size: 1rem;
+font-weight: 400;
+color: rgb(70, 74, 77);
+     }
+
+#features .fea-base{
+    display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+column-gap: 30px;
+margin-top: 30px;
+padding: 10px 0 15px 0;
+}
+
+/*course*/
+#course{
+     padding:8vw 8vw 8vw 8vw ;
+text-align: center;
+text-transform: uppercase;
+}
+#course .courses{
+text-align: start;
+background: whitesmoke;
+height: 100%;
+position: relative;
+}
+
+#course .courses img{
+width: 100%;
+height: 60%;
+background-size: cover;
+background-position: center;
+}
+
+#course .course-box{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+     column-gap: 30px;
+     margin-top: 30px;
+     padding: 10px 0 15px 0;
+
+}
+#course .courses .details{
+padding: 30px 30px 0 30px;
+}
+
+#course .courses .cost{
+background-color: rgb(74, 74, 136);
+color: white;
+line-height: 70px;
+width: 60px;
+height: 60px;
+text-align: center;
+border-radius: 60%;
+position: absolute;
+right: 10px;
+bottom: 65px;
+}
+
+/*registration*/
+#Registration{
+padding: 6vw 8vw 6vw 8vw;
+background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7));
+width: 100%;
+height: 100vh;
+background-size: cover;
+background-position: center;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+#Registration .reminder{
+color: white;
+}
+
+#Registration .reminder h1{
+     color: white;
+     }
+     
+#Registration .reminder .time{
+display: flex;
+margin-top: 40px;
+}
+
+#Registration .reminder .time .date{
+text-align: center;
+padding: 13px 13px;
+background: rgba(255,255, 255, 0.25);
+backdrop-filter: blur(4p);
+box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37 );
+border-radius: 10px;
+margin: 0 5px 10px 5px;
+border: 1px  solid rgba(255,255, 255, 0.18) ;
+font-size: 1.1rem;
+font-weight: 600;
+}
+ #Registration .form{
+background: white;
+border-radius: 8px;
+display: flex;
+flex-direction: column;
+padding: 40px;
+box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37 );
+
+ }
+
+
+ #Registration .form input{
+margin: 16px 0;
+padding: 16px 10px;
+border: 1px solid rgba(84, 40, 241 );
+outline: none;
+ }
+
+
+#experts{
+padding: 8vw 8vw 0 8vw;
+text-align: center;
+}
+#experts .profile img{
+     width: 100%;
+     height: 60%;
+     background-size: cover;
+     background-position: center;
+     }
+#experts .expert-box{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+column-gap: 30px;
+margin-top: 30px;
+padding: 8px 0 10px 0;
+}
+
+#experts .expert-box .profile{
+background: #fafafa;
+padding: 30px 10px ;
+}
+
+footer{
+padding: 8vw;
+background-color: rgb(83, 83, 126);
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+flex-wrap: wrap;
+}
+
+footer .footer-col{
+padding-bottom: 40px;
+}
+
+footer h3{
+color: rgb(241, 240, 245);
+font-weight: 600;
+padding-bottom: 20px;
+}
+
+footer li{
+list-style: none;
+color: rgb(103, 103, 103);
+padding: 10px 0;
+font-size: 15px;
+cursor: pointer;
+transition: 0.3s ease;
+}
+
+
+footer li:hover{
+color: antiquewhite;
+}
+
+footer p{
+     color: dimgray;
+}
+
+footer .Subscribe{
+     margin-top: 20px;
+}
+
+footer input{
+     width: 220px;
+padding: 15px 12px ;
+background: rgb(62, 62, 62);
+border: none;
+outline: none;
+color: aliceblue;
+}
+
+footer .subscribe a{
+text-decoration: none;
+font-size: 0.9rem;
+padding: 13px 35px;
+background-color: white;
+font-weight: 600;
+border-radius: 5px;
+}
+
+footer .subscribe a.yellow{
+     color: white;
+background: rgb(82, 82, 5);
+transition:0.3s ease;
+}
+
+footer .subscribe a.yellow:hover{
+color: rgb(5, 51, 51);
+background: white;
+}
+
+@media (max-width: 769){
+nav{
+     padding: 15px 20px;
+}
+nav img{
+     width: 100px;
+}
+}
+
+
+
+
+
+
+
+
